@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { InfoComponent } from './info/info.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { QuizComponent } from './quiz/quiz.component';
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    FormsModule    
+    FormsModule,
+    HttpClientModule 
   ],
   providers: [],
   bootstrap: [AppComponent]

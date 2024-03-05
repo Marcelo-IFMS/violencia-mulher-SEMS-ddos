@@ -1,274 +1,223 @@
 {
-    "questions": [{
-            "questionText": "Seu companheiro(a) determina a roupa que você pode usar",
-            "options": [{
-                    "text": ":",
-                    "correct": true
+    "questions": [
+        {
+            "questionText": "Seu companheiro(a) determina a roupa que você pode usar?",
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": ";"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "!"
-                },
-                {
-                    "text": "&"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Ele(a) escolhe sues amigos ou proíbe de fala com algumas pessoas (familiares, amigos, colegas de trabalho)?",
-            "options": [{
-                    "text": "number"
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "string"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "boolean"
-                },
-                {
-                    "text": "enum",
-                    "correct": true
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Você se sente livre para sair sozinha ou com outras pessoas sem a companhia dele(a)",
-            "options": [{
-                    "text": "Use classes."
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Use interfaces.",
-                    "correct": true
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Use enums."
-                },
-                {
-                    "text": "Use async/await."
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Você se pergunta ou sente que mudou sua pesonalidade por causa do seu relacinamento?",
-            "options": [{
-                    "text": "@number"
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "number[]",
-                    "correct": true
+                    "text": "As vezes"
                 },
                 {
-                    "text": "number!"
-                },
-                {
-                    "text": "number?"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Você sente que se distanciou de amigos, familiares e pessoas que gosta depois que começou seu relacionamento?",
-            "options": [{
-                    "text": "constructor",
-                    "correct": true
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "destructor"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "import"
-                },
-                {
-                    "text": "subscribe"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Você se sente insegura ou desvalorizada?",
-            "options": [{
-                    "text": "private"
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "protected"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "public"
-                },
-                {
-                    "text": "async",
-                    "correct": true
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "As pessoas que te amam e são importantes na sua vida, gostam do seu parceiro(a)?",
-            "options": [{
-                    "text": "import"
+            "options": [
+                {
+                    "text": "Sim"
                 },
                 {
-                    "text": "export",
-                    "correct": true
-                },
-                {
-                    "text": "async"
-                },
-                {
-                    "text": "constructor"
+                    "text": "Não"
                 }
             ],
             "explanation": ""
         },
         {
-            "questionText": "Você já sofreu algum ripo de agressão vinda dessa pessoa?",
-            "options": [{
-                    "text": "filter",
-                    "correct": true
+            "questionText": "Você já sofreu algum tipo de agressão vinda dessa pessoa?",
+            "options": [
+                {
+                    "text": "Sim"
                 },
                 {
-                    "text": "map"
-                },
-                {
-                    "text": "async"
-                },
-                {
-                    "text": "enum"
+                    "text": "Não"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Você ouve promessas de que ele(a) vai melhorar, vai mudar de atitude, mas isso nunca acontece?",
-            "options": [{
-                    "text": "Using this.propertyName",
-                    "correct": true
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Accessors"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Destructuring"
-                },
-                {
-                    "text": "Arrow function"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Seu parceiro(a) costuma ser explisivo(a) e depois pede desculpas, se mostrando arrependido?",
-            "options": [{
-                    "text": "Using this.propertyName",
-                    "correct": true
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Accessors"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Destructuring"
-                },
-                {
-                    "text": "Arrow function"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Ele(a) usa álcool ou drogas com comportamentos agressivos ou violentos?",
-            "options": [{
-                    "text": "Using this.propertyName",
-                    "correct": true
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Accessors"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Destructuring"
-                },
-                {
-                    "text": "Arrow function"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Você sente que seu parceiro(a) é superior a você?",
-            "options": [{
-                    "text": "Using this.propertyName",
-                    "correct": true
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Accessors"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Destructuring"
-                },
-                {
-                    "text": "Arrow function"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Seu parceiro(a) tem ciúmes de tudo e de todos?",
-            "options": [{
-                    "text": "Using this.propertyName",
-                    "correct": true
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Accessors"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Destructuring"
-                },
-                {
-                    "text": "Arrow function"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
             "questionText": "Ele(a) diz que você não será nada sem ele(a) ou que não será nada sem você?",
-            "options": [{
-                    "text": "Using this.propertyName",
-                    "correct": true
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Accessors"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Destructuring"
-                },
-                {
-                    "text": "Arrow function"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         },
         {
-            "questionText": "Ele(a) faz pressão para fzer sexo, mesmo que você não esteja bem, confortável ou preparada?",
-            "options": [{
-                    "text": "Using this.propertyName",
-                    "correct": true
+            "questionText": "Ele(a) faz pressão para fazer sexo, mesmo que você não esteja bem, confortável ou preparada?",
+            "options": [
+                {
+                    "text": "Sempre"
                 },
                 {
-                    "text": "Accessors"
+                    "text": "As vezes"
                 },
                 {
-                    "text": "Destructuring"
-                },
-                {
-                    "text": "Arrow function"
+                    "text": "Nunca"
                 }
             ],
             "explanation": ""
         }
     ]
 }
-
