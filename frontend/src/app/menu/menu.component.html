@@ -1,43 +1,53 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark gradient-custom">
-    <!-- Container wrapper -->
-    <div class="container-fluid">
-      <!-- Navbar brand -->
-      <a class="navbar-brand" href="#"><div class="d-flex justify-content-center">Violencia, eu? </div></a>
-  
-      <!-- Toggle button -->
-      <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-        data-mdb-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-        aria-label="Toggle navigation">
-        <i class="fas fa-bars text-light"></i>
-      </button>
-  
-      <!-- Collapsible wrapper -->
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <!-- Left links -->
-        <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
-          <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link active" aria-current="page" href="informacoes">
-              <div>
-                <i class="fas fa-home fa-lg mb-1"></i>
-              </div>
-              Informações
-            </a>
-          </li>
-          <li class="nav-item text-center mx-2 mx-lg-1">
-            <a class="nav-link" href="quiz">
-              Questionário
-            </a>
-          </li>
-          
-          
-        </ul>
-        <!-- Left links -->
-  
-  
-      </div>
-      <!-- Collapsible wrapper -->
+<nav class="container rounded navbar navbar-expand-lg navbar-dark gradient-custom">
+  <!-- Container wrapper -->
+  <div class="container-fluid">
+    <!-- Navbar brand -->
+    <a class="navbar-brand" routerLink="/">
+      <div class="d-flex">Violencia, eu? </div>
+    </a>
+    <!-- Toggle button -->
+    <button class="navbar-toggler border" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <i class="text-light"></i>
+    </button>
+
+    <!-- Collapsible wrapper -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- Left links -->
+      <ul class="navbar-nav me-auto d-flex flex-row mt-3 mt-lg-0">
+        <li class="nav-item text-center mx-2 mx-lg-1">
+          <a class="nav-link active" aria-current="page" routerLink="/informacoes">
+            <div>
+              <i class="mb-1"></i>
+            </div>
+            Informações
+          </a>
+        </li>
+        <li class="nav-item text-center mx-2 mx-lg-1">
+          <a class="nav-link" routerLink="/quiz">
+            Questionário
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+            aria-expanded="false">Dropdown</a>
+          <ul class="dropdown-menu gradient-custom">
+            <li><a class="dropdown-item" routerLink="/">Link 1</a></li>
+            <li><a class="dropdown-item" routerLink="/">Link 2 </a></li>
+            <li><a class="dropdown-item" routerLink="/">Link 3</a></li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Link sepadado</a></li>
+          </ul>
+        </li>
+
+      </ul>
+      <!-- Left links -->
     </div>
-    <!-- Container wrapper -->
-  </nav>
-  <!-- Navbar -->
+    <!-- Collapsible wrapper -->
+  </div>
+  <!-- Container wrapper -->
+</nav>
+<!-- Navbar -->

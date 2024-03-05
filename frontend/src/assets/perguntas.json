@@ -1,0 +1,274 @@
+{
+    "questions": [{
+            "questionText": "Seu companheiro(a) determina a roupa que você pode usar",
+            "options": [{
+                    "text": ":",
+                    "correct": true
+                },
+                {
+                    "text": ";"
+                },
+                {
+                    "text": "!"
+                },
+                {
+                    "text": "&"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Ele(a) escolhe sues amigos ou proíbe de fala com algumas pessoas (familiares, amigos, colegas de trabalho)?",
+            "options": [{
+                    "text": "number"
+                },
+                {
+                    "text": "string"
+                },
+                {
+                    "text": "boolean"
+                },
+                {
+                    "text": "enum",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Você se sente livre para sair sozinha ou com outras pessoas sem a companhia dele(a)",
+            "options": [{
+                    "text": "Use classes."
+                },
+                {
+                    "text": "Use interfaces.",
+                    "correct": true
+                },
+                {
+                    "text": "Use enums."
+                },
+                {
+                    "text": "Use async/await."
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Você se pergunta ou sente que mudou sua pesonalidade por causa do seu relacinamento?",
+            "options": [{
+                    "text": "@number"
+                },
+                {
+                    "text": "number[]",
+                    "correct": true
+                },
+                {
+                    "text": "number!"
+                },
+                {
+                    "text": "number?"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Você sente que se distanciou de amigos, familiares e pessoas que gosta depois que começou seu relacionamento?",
+            "options": [{
+                    "text": "constructor",
+                    "correct": true
+                },
+                {
+                    "text": "destructor"
+                },
+                {
+                    "text": "import"
+                },
+                {
+                    "text": "subscribe"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Você se sente insegura ou desvalorizada?",
+            "options": [{
+                    "text": "private"
+                },
+                {
+                    "text": "protected"
+                },
+                {
+                    "text": "public"
+                },
+                {
+                    "text": "async",
+                    "correct": true
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "As pessoas que te amam e são importantes na sua vida, gostam do seu parceiro(a)?",
+            "options": [{
+                    "text": "import"
+                },
+                {
+                    "text": "export",
+                    "correct": true
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "constructor"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Você já sofreu algum ripo de agressão vinda dessa pessoa?",
+            "options": [{
+                    "text": "filter",
+                    "correct": true
+                },
+                {
+                    "text": "map"
+                },
+                {
+                    "text": "async"
+                },
+                {
+                    "text": "enum"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Você ouve promessas de que ele(a) vai melhorar, vai mudar de atitude, mas isso nunca acontece?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Seu parceiro(a) costuma ser explisivo(a) e depois pede desculpas, se mostrando arrependido?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Ele(a) usa álcool ou drogas com comportamentos agressivos ou violentos?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Você sente que seu parceiro(a) é superior a você?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Seu parceiro(a) tem ciúmes de tudo e de todos?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Ele(a) diz que você não será nada sem ele(a) ou que não será nada sem você?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": ""
+        },
+        {
+            "questionText": "Ele(a) faz pressão para fzer sexo, mesmo que você não esteja bem, confortável ou preparada?",
+            "options": [{
+                    "text": "Using this.propertyName",
+                    "correct": true
+                },
+                {
+                    "text": "Accessors"
+                },
+                {
+                    "text": "Destructuring"
+                },
+                {
+                    "text": "Arrow function"
+                }
+            ],
+            "explanation": ""
+        }
+    ]
+}
+
