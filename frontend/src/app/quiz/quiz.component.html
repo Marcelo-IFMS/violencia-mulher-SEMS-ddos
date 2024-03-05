@@ -1,0 +1,76 @@
+<div class="container container-md bg-light mt-2 container-fluid border rounded border border-success p-3"
+    style="--bs-bg-opacity: .9;">
+    <p class="text-center">
+        Quiz
+    </p>
+    <form>
+        <div *ngIf='pg1'>
+            <div class="form-group mt-3">
+                <label for="exampleInputEmail1">Seu companheiro(a) determina a roupa que você usa?</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="10" id="roupa"><label
+                        class="form-check-label" for="defaultCheck1">Sempre</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="5" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">As Vezes</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="0" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">Nunca</label>
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <label for="exampleInputEmail1">Ele(a) escolhe seus amigos ou proíbe de falar com algumas pessoas
+                    (familiares, amigos, colegas de trabalho)</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="10" id="roupa"><label
+                        class="form-check-label" for="defaultCheck1">Sempre</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="5" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">As Vezes</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="0" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">Nunca</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3" (click)="pg(2)">Proximo</button>
+        </div>
+        <div *ngIf='pg2'>
+            <div class="form-group mt-3">
+                <label for="exampleInputEmail1">Você se sente livre para sair sozinha ou com outras pessias sem companhia dele(a)?</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="10" id="roupa"><label
+                        class="form-check-label" for="defaultCheck1">Sempre</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="5" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">As Vezes</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="0" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">Nunca</label>
+                </div>
+            </div>
+            <div class="form-group mt-3">
+                <label for="exampleInputEmail1">Você se pergunta, ou sente que mudou sua personalidade por causa do seu relacionamento</label>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="10" id="roupa"><label
+                        class="form-check-label" for="defaultCheck1">Sempre</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="5" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">As Vezes</label>
+                </div>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" value="0" id="roupa"><label class="form-check-label"
+                        for="defaultCheck1">Nunca</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary mt-3" (click)="pg(1)">Voltar</button>
+            <button type="submit" class="btn btn-primary mt-3" (click)="pg(3)">Proximo</button>
+        </div>
+    </form>
+</div>
