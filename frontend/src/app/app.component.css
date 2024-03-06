@@ -21,9 +21,9 @@ body {
     
     /* background-color: papayawhip; */
     /* margin: 0 auto; */
-    background: url('/assets/img/bgwoman.jpg')no-repeat center center fixed;
+    background: url('/assets/img/bg.png')no-repeat center center fixed;
     /* -webkit-background-size: cover; */
     /* -o-background-size: cover; */
-    -moz-background-size: cover;
+    -moz-background-size: cover; 
     background-size: cover;
 }
