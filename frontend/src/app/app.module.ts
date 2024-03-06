@@ -9,6 +9,7 @@ import { MenuComponent } from './menu/menu.component';
 import { InfoComponent } from './info/info.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { HttpClientModule } from '@angular/common/http';
+import { LegislacaoComponent } from './legislacao/legislacao.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
     HomeComponent,
     MenuComponent,
     InfoComponent,
-    QuizComponent
+    QuizComponent,
+    LegislacaoComponent
   ],
   imports: [
     BrowserModule,
