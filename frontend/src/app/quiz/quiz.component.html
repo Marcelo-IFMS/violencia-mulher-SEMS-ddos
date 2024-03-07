@@ -4,7 +4,7 @@
             <h5>Pontuação {{pontuacao}}</h5>
         </div>
         <div class="question-remain">
-            <span style="font-style: italic;">Question {{questaocorrente+1}} de {{listaquestoes.length}}</span>
+            <span style="font-style: italic;">Pergunta {{questaocorrente+1}} de {{listaquestoes.length}}</span>
         </div>
         <!-- <div class="timer">
             <h5>tempo x segundo ⏱</h5>
@@ -25,7 +25,7 @@
         <ol *ngFor="let option of listaquestoes[questaocorrente]?.options">
             <li>
                 <div class="card">
-                    {{option.text}}
+                    <a (click)='addvetorPontuacao(option.pontos)'>{{option.text}}</a>
                 </div>
             </li>
         </ol>
@@ -33,75 +33,8 @@
     
     <div class="d-flex justify-content-center">
         <button [disabled]="questaocorrente===0" class="btn" (click)="previousQuestion()"><i class="fa fa-chevron-left fa-2x" aria-hidden="true"></i></button>
-        <button class="btn"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
+        <button class="btn" (click)="resetQuiz()"><i class="fa fa-refresh fa-2x" aria-hidden="true"></i></button>
         <button [disabled]="questaocorrente===14" class="btn" (click)="nextQuestion()"><i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i></button>
     </div>
 </div>
 
-
-
-<!-- <div class="container container-md bg-light mt-2 container-fluid rounded border border-success p-3"
-    style="--bs-bg-opacity: .9;">
-    <p class="text-center">
-        Quiz
-    </p>
-    <form>
-        <div *ngIf='pg1'>
-            <div class="form-group mt-3">
-                <label>Seu companheiro(a) determina a roupa que você usa?</label>
-                <input type="radio" class="form-radio-input" value="10" id="roupa"><label
-                    class="form-radio-label">Sempre</label>
-                <input type="radio" class="form-radio-input" value="5" id="roupa"><label class="form-radio-label">As
-                    Vezes</label>
-                <input type="radio" class="form-radio-input" value="0" id="roupa"><label
-                    class="form-radio-label">Nunca</label>
-            </div>
-            <div class="form-group mt-3">
-                <label>Ele(a) escolhe seus amigos ou proíbe de falar com algumas pessoas
-                    (familiares, amigos, colegas de trabalho)</label>
-                <input type="checkbox" class="form-check-input" value="10" id="roupa"><label
-                    class="form-check-label">Sempre</label>
-                <input type="checkbox" class="form-check-input" value="5" id="roupa"><label class="form-check-label">As
-                    Vezes</label>
-                <input type="checkbox" class="form-check-input" value="0" id="roupa"><label
-                    class="form-check-label">Nunca</label>
-            </div>
-            <button type="submit" class="btn btn-primary mt-3" (click)="pg(2)">Proximo</button>
-        </div>
-        <div *ngIf='pg2'>
-            <div class="form-group mt-3">
-                <label>Você se sente livre para sair sozinha ou com outras pessias sem companhia dele(a)?</label>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" value="10" id="roupa"><label
-                        class="form-check-label" for="defaultCheck1">Sempre</label>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" value="5" id="roupa"><label class="form-check-label"
-                        for="defaultCheck1">As Vezes</label>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" value="0" id="roupa"><label class="form-check-label"
-                        for="defaultCheck1">Nunca</label>
-                </div>
-            </div>
-            <div class="form-group mt-3">
-                <label for="exampleInputEmail1">Você se pergunta, ou sente que mudou sua personalidade por causa do seu
-                    relacionamento</label>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" value="10" id="roupa"><label
-                        class="form-check-label" for="defaultCheck1">Sempre</label>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" value="5" id="roupa"><label class="form-check-label"
-                        for="defaultCheck1">As Vezes</label>
-                </div>
-                <div class="form-check">
-                    <input type="checkbox" class="form-check-input" value="0" id="roupa"><label class="form-check-label"
-                        for="defaultCheck1">Nunca</label>
-                </div>
-            </div>
-            <button type="submit" class="btn btn-primary mt-3" (click)="pg(1)">Voltar</button>
-            <button type="submit" class="btn btn-primary mt-3" (click)="pg(3)">Proximo</button>
-        </div>
-    </form>
-</div> -->
