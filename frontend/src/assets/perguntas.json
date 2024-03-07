@@ -8,10 +8,12 @@
                     "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -20,13 +22,16 @@
             "questionText": "Ele(a) escolhe sues amigos ou proíbe de fala com algumas pessoas (familiares, amigos, colegas de trabalho)?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -35,13 +40,16 @@
             "questionText": "Você se sente livre para sair sozinha ou com outras pessoas sem a companhia dele(a)",
             "options": [
                 {
-                    "text": "Sempre","pontos": 0
+                    "text": "Sempre",
+                    "pontos": 0
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 10
+                    "text": "Nunca",
+                    "pontos": 10
                 }
             ],
             "explanation": ""
@@ -50,13 +58,16 @@
             "questionText": "Você se pergunta ou sente que mudou sua pesonalidade por causa do seu relacinamento?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -65,13 +76,16 @@
             "questionText": "Você sente que se distanciou de amigos, familiares e pessoas que gosta depois que começou seu relacionamento?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -80,13 +94,16 @@
             "questionText": "Você se sente insegura ou desvalorizada?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -95,10 +112,12 @@
             "questionText": "As pessoas que te amam e são importantes na sua vida, gostam do seu parceiro(a)?",
             "options": [
                 {
-                    "text": "Sim","pontos": 0
+                    "text": "Sim",
+                    "pontos": 0
                 },
                 {
-                    "text": "Não","pontos": 10
+                    "text": "Não",
+                    "pontos": 10
                 }
             ],
             "explanation": ""
@@ -107,10 +126,12 @@
             "questionText": "Você já sofreu algum tipo de agressão vinda dessa pessoa?",
             "options": [
                 {
-                    "text": "Sim","pontos": 10
+                    "text": "Sim",
+                    "pontos": 10
                 },
                 {
-                    "text": "Não","pontos": 0
+                    "text": "Não",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -119,13 +140,16 @@
             "questionText": "Você ouve promessas de que ele(a) vai melhorar, vai mudar de atitude, mas isso nunca acontece?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -134,13 +158,16 @@
             "questionText": "Seu parceiro(a) costuma ser explisivo(a) e depois pede desculpas, se mostrando arrependido?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -149,13 +176,16 @@
             "questionText": "Ele(a) usa álcool ou drogas com comportamentos agressivos ou violentos?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -164,13 +194,16 @@
             "questionText": "Você sente que seu parceiro(a) é superior a você?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -179,13 +212,16 @@
             "questionText": "Seu parceiro(a) tem ciúmes de tudo e de todos?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -194,13 +230,16 @@
             "questionText": "Ele(a) diz que você não será nada sem ele(a) ou que não será nada sem você?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
@@ -209,16 +248,41 @@
             "questionText": "Ele(a) faz pressão para fazer sexo, mesmo que você não esteja bem, confortável ou preparada?",
             "options": [
                 {
-                    "text": "Sempre","pontos": 10
+                    "text": "Sempre",
+                    "pontos": 10
                 },
                 {
-                    "text": "As vezes","pontos": 5
+                    "text": "As vezes",
+                    "pontos": 5
                 },
                 {
-                    "text": "Nunca","pontos": 0
+                    "text": "Nunca",
+                    "pontos": 0
                 }
             ],
             "explanation": ""
+        }
+    ],
+    "respostas": [
+        {
+            "R1": [
+                {
+                    "titulo": "De 0 a 20 pontos - Tudo tranquilo",
+                    "texto": "Só de você ter feito o teste e ter se preocupado com o relacionamento já mostra sua maturidade para lidar com isso. Um relacionamento abusivo tem como principal caractrística a Invasão do espeço do parceiro atravéz do comportamento manipulador que visa controle do outro e, isso não acontece com vocês. Seu relacionamento parece ser saúdavel, maduro e cheio de respeito como todos deveriam ser. "
+                }
+            ],
+            "R2": [
+                {
+                    "titulo": "De 25 a 75 pontos - Fique Atenta!",
+                    "texto": "Entenda que todos os relacionamentos têm divergências e algumas discussões, porém, o relacionamento abusivo vive nos pequenos detalher do dia a dia. Geralmente ele inicia sem qualquer sinal de abuso, pois os abusadores são pessoas manipuladoras e esperam o momento certo para inicial progessivamente os epsódios de abuso. Quem está apaixonado considera grande parte dos atos como coisas normais, comuns em um relacionamento. Se você acha que está em um relacionamento assim, coloque os prós e os contras de seu relacionamento na balança e questione se está trazendo banefícios realmente ou só sugando suas energias e, sua própria identidade "
+                }
+            ],
+            "R3": [
+                {
+                    "titulo": "De 80 a 150 pontos - Atenção, essa relação é abusiva",
+                    "texto": "Existem duas coisas preocupantes em relacionamentos abusivos: quem é abusado não consegue enxergar por estar muito apaixonado e quem abusa também não, porque muitas vezes tem esse modelo de relacionamento ao redor. Se você percebe que está ______, deixando de falar com seus amigos e familiares, perdendo suas características próprias, isso é sinal de um relacionamento abusivo SIM. Você precisa listar, o que faz bem e o que faz ml no relacionamento. Vai ser um trabalho de médio prazo e você precisa aceitar que algo está errado, saber que o problema na maioria dos casos não é, e não está em você!"
+                }
+            ]
         }
     ]
 }

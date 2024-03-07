@@ -13,6 +13,7 @@ export class QuizComponent implements OnInit {
   public pontuacao: number = 0;
   public progress: string = "0";
   public vetorPontuacao: any = [];
+  public resultado: boolean = true;
 
   constructor(private questionsService: QuestionService) { }
 
@@ -48,6 +49,8 @@ export class QuizComponent implements OnInit {
     console.log(this.questaocorrente);
     if (!(this.listaquestoes.length === this.questaocorrente+1)){
       this.nextQuestion();
+    }else {
+      this.resultado = true;
     }
     
   }
@@ -56,5 +59,6 @@ export class QuizComponent implements OnInit {
     this.questaocorrente = 0;
     this.progress = "0";
     this.vetorPontuacao = [];
+    this.resultado = false;
   }
 }

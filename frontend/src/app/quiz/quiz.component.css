@@ -18,6 +18,47 @@ li .card:hover {
 ol {
     padding: 0;
 }
+
 i {
     color: rgb(250, 113, 205, 1);
 }
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.beta {
+    color: black;
+    background-color: rgb(200, 150, 235);
+    min-height: 50vh;
+    min-width: 50vh;
+}
+@keyframes btn-pisca {
+
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+button.tremer {
+  background-color: rgb(250, 113, 205, 1);
+  color:#fff;
+  padding: 0.6em 2.8em;
+  display: inline-block;
+  text-decoration: none;
+  
+  border-radius: 26px; 
+  -webkit-animation: treme 0.5s linear infinite;
+  -moz-animation: treme 0.5s linear infinite;
+  -ms-animation: treme 0.5s linear infinite;
+  -o-animation: treme 0.5s linear infinite;
+  animation: treme 0.5s linear infinite;
+}
+@keyframes treme {
+    0% {margin-left: 0;}
+    25% {margin-left: 5px;}
+    50% {margin-left: 0;}
+    75% {margin-left: -5px;}
+    100% {margin-left: 0;}
+  }
