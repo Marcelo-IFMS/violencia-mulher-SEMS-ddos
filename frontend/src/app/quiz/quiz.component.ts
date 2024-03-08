@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { QuestionService } from '../service/question.service';
+import $ from 'jquery';
 
 @Component({
   selector: 'app-quiz',
@@ -13,17 +14,23 @@ export class QuizComponent implements OnInit {
   public pontuacao: number = 0;
   public progress: string = "0";
   public vetorPontuacao: any = [];
-  public resultado: boolean = true;
-
+  public resultado: boolean = false;
+  public resultadoTextContainer: boolean = false;
+  public listarespostas: any =[];
+  public texto: string ="";
+  public titulo: string ="";
+  
   constructor(private questionsService: QuestionService) { }
 
   ngOnInit(): void {
     this.getAllQuestions();
+    
   }
 
   getAllQuestions() {
     this.questionsService.getQuestionJson().subscribe(res => {
       this.listaquestoes = res.questions;
+      this.listarespostas = res.respostas;
     })
 
   }
@@ -45,20 +52,34 @@ export class QuizComponent implements OnInit {
   addvetorPontuacao(pontos: any) {
     this.vetorPontuacao[this.questaocorrente] = pontos;
     this.pontuacao = this.vetorPontuacao.reduce((accumulator: any, value: any) => accumulator + value, 0);
-    console.log(this.listaquestoes.length);
-    console.log(this.questaocorrente);
-    if (!(this.listaquestoes.length === this.questaocorrente+1)){
+    if (!(this.listaquestoes.length === this.questaocorrente + 1)) {
       this.nextQuestion();
-    }else {
+    } else {
       this.resultado = true;
     }
-    
+
   }
-  resetQuiz(){
+  resetQuiz() {
     this.pontuacao = 0;
     this.questaocorrente = 0;
     this.progress = "0";
     this.vetorPontuacao = [];
     this.resultado = false;
+    this.resultadoTextContainer = false;
+    $('div.quiz').removeClass("disabled");
+  }
+  resultadoTexto(){
+    $('div.quiz').addClass("disabled");
+    this.resultadoTextContainer=true;
+    if(this.pontuacao<21){
+      this.texto = this.listarespostas[0].texto;
+      this.titulo = this.listarespostas[0].titulo;
+    }else if(this.pontuacao>20 && this.pontuacao<76){
+      this.texto = this.listarespostas[1].texto;
+      this.titulo = this.listarespostas[1].titulo;
+    }else{
+      this.texto = this.listarespostas[2].texto;
+      this.titulo = this.listarespostas[2].titulo;
+    }
   }
 }

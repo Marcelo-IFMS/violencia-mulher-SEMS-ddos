@@ -21,6 +21,7 @@ ol {
 
 i {
     color: rgb(250, 113, 205, 1);
+    
 }
 
 .disabled {
@@ -30,9 +31,9 @@ i {
 
 .beta {
     color: black;
-    background-color: rgb(200, 150, 235);
-    min-height: 50vh;
-    min-width: 50vh;
+    background-color:rgb(246, 176, 225);
+    min-height: 60%;
+    min-width: 60%;
 }
 @keyframes btn-pisca {
 
