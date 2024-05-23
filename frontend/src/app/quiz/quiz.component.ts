@@ -16,15 +16,15 @@ export class QuizComponent implements OnInit {
   public vetorPontuacao: any = [];
   public resultado: boolean = false;
   public resultadoTextContainer: boolean = false;
-  public listarespostas: any =[];
-  public texto: string ="";
-  public titulo: string ="";
-  
+  public listarespostas: any = [];
+  public texto: string = "";
+  public titulo: string = "";
+
   constructor(private questionsService: QuestionService) { }
 
   ngOnInit(): void {
     this.getAllQuestions();
-    
+
   }
 
   getAllQuestions() {
@@ -57,6 +57,7 @@ export class QuizComponent implements OnInit {
     } else {
       this.resultado = true;
     }
+    console.log(this.pontuacao);
 
   }
   resetQuiz() {
@@ -68,16 +69,16 @@ export class QuizComponent implements OnInit {
     this.resultadoTextContainer = false;
     $('div.quiz').removeClass("disabled");
   }
-  resultadoTexto(){
+  resultadoTexto() {
     $('div.quiz').addClass("disabled");
-    this.resultadoTextContainer=true;
-    if(this.pontuacao<21){
+    this.resultadoTextContainer = true;
+    if (this.pontuacao < 21) {
       this.texto = this.listarespostas[0].texto;
       this.titulo = this.listarespostas[0].titulo;
-    }else if(this.pontuacao>20 && this.pontuacao<76){
+    } else if (this.pontuacao > 20 && this.pontuacao < 76) {
       this.texto = this.listarespostas[1].texto;
       this.titulo = this.listarespostas[1].titulo;
-    }else{
+    } else {
       this.texto = this.listarespostas[2].texto;
       this.titulo = this.listarespostas[2].titulo;
     }
