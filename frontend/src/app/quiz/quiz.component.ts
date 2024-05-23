@@ -58,6 +58,7 @@ export class QuizComponent implements OnInit {
       this.resultado = true;
     }
     console.log(this.pontuacao);
+    console.log(this.vetorPontuacao);
 
   }
   resetQuiz() {
