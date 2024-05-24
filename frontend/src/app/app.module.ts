@@ -9,7 +9,9 @@ import { MenuComponent } from './menu/menu.component';
 import { InfoComponent } from './info/info.component';
 import { QuizComponent } from './quiz/quiz.component';
 import { HttpClientModule } from '@angular/common/http';
-import { LegislacaoComponent } from './legislacao/legislacao.component';
+import { LegislacaoComponent } from './juridico/legislacao/legislacao.component';
+import { TermoservicoComponent } from './juridico/termoservico/termoservico.component';
+import { PoliticaprivacidadeComponent } from './juridico/politicaprivacidade/politicaprivacidade.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { LegislacaoComponent } from './legislacao/legislacao.component';
     MenuComponent,
     InfoComponent,
     QuizComponent,
-    LegislacaoComponent
+    LegislacaoComponent,
+    TermoservicoComponent,
+    PoliticaprivacidadeComponent
   ],
   imports: [
     BrowserModule,
