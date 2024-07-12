@@ -12,6 +12,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { LegislacaoComponent } from './juridico/legislacao/legislacao.component';
 import { TermoservicoComponent } from './juridico/termoservico/termoservico.component';
 import { PoliticaprivacidadeComponent } from './juridico/politicaprivacidade/politicaprivacidade.component';
+import { FilmeserieComponent } from './filmeserie/filmeserie.component';
+import { TelefonesComponent } from './telefones/telefones.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { PoliticaprivacidadeComponent } from './juridico/politicaprivacidade/pol
     QuizComponent,
     LegislacaoComponent,
     TermoservicoComponent,
-    PoliticaprivacidadeComponent
+    PoliticaprivacidadeComponent,
+    FilmeserieComponent,
+    TelefonesComponent
   ],
   imports: [
     BrowserModule,

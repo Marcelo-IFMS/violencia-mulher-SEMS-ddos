@@ -3,9 +3,11 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { InfoComponent } from './info/info.component';
 import { QuizComponent } from './quiz/quiz.component';
+import { FilmeserieComponent } from './filmeserie/filmeserie.component';
 import { LegislacaoComponent } from './juridico/legislacao/legislacao.component';
 import { PoliticaprivacidadeComponent } from './juridico/politicaprivacidade/politicaprivacidade.component';
 import { TermoservicoComponent } from './juridico/termoservico/termoservico.component';
+import { TelefonesComponent } from './telefones/telefones.component' ;
 
 const routes: Routes = [
   {path: '',     component: HomeComponent},
@@ -14,6 +16,8 @@ const routes: Routes = [
   {path:'legislacao', component: LegislacaoComponent},
   {path:'politicadeprivacidade', component: PoliticaprivacidadeComponent},
   {path:'termodeservico', component: TermoservicoComponent},
+  {path:'filmeseries', component: FilmeserieComponent},
+  {path:'telefones', component: TelefonesComponent},
 
 ];
 
