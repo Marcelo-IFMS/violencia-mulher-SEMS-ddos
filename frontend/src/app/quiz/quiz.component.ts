@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { QuestionService } from '../service/question.service';
-import $ from 'jquery';
 
 @Component({
   selector: 'app-quiz',
