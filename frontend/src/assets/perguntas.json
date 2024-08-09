@@ -19,7 +19,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Ele(a) escolhe sues amigos ou proíbe de fala com algumas pessoas (familiares, amigos, colegas de trabalho)?",
+            "questionText": "Ele(a) escolhe seus amigos ou proíbe de falar com algumas pessoas (familiares, amigos, colegas de trabalho)?",
             "options": [
                 {
                     "text": "Sempre",
@@ -55,7 +55,7 @@
             "explanation": ""
         },
         {
-            "questionText": "Você se pergunta ou sente que mudou sua pesonalidade por causa do seu relacinamento?",
+            "questionText": "Você se pergunta ou sente que mudou sua personalidade por causa do seu relacinamento?",
             "options": [
                 {
                     "text": "Sempre",
@@ -266,7 +266,7 @@
     "respostas": [
         {
             "titulo": "De 0 a 20 pontos - Tudo tranquilo",
-            "texto": "Só de você ter feito o teste e ter se preocupado com o relacionamento já mostra sua maturidade para lidar com isso. Um relacionamento abusivo tem como principal caractrística a Invasão do espeço do parceiro atravéz do comportamento manipulador que visa controle do outro e, isso não acontece com vocês. Seu relacionamento parece ser saúdavel, maduro e cheio de respeito como todos deveriam ser. "
+            "texto": "Só de você ter feito o teste e ter se preocupado com o relacionamento já mostra sua maturidade para lidar com isso. Um relacionamento abusivo tem como principal caractrística a Invasão do espeço do parceiro através do comportamento manipulador que visa controle do outro e, isso não acontece com vocês. Seu relacionamento parece ser saúdavel, maduro e cheio de respeito como todos deveriam ser. "
         },
         {
             "titulo": "De 25 a 75 pontos - Fique Atenta!",
@@ -274,7 +274,7 @@
         },
         {
             "titulo": "De 80 a 150 pontos - Atenção, essa relação é abusiva",
-            "texto": "Existem duas coisas preocupantes em relacionamentos abusivos: quem é abusado não consegue enxergar por estar muito apaixonado e quem abusa também não, porque muitas vezes tem esse modelo de relacionamento ao redor. Se você percebe que está se isolando, deixando de falar com seus amigos e familiares, perdendo suas características próprias, isso é sinal de um relacionamento abusivo SIM. Você precisa listar, o que faz bem e o que faz ml no relacionamento. Vai ser um trabalho de médio prazo e você precisa aceitar que algo está errado, saber que o problema na maioria dos casos não é, e não está em você!"
+            "texto": "Existem duas coisas preocupantes em relacionamentos abusivos: quem é abusado não consegue enxergar por estar muito apaixonado e quem abusa também não, porque muitas vezes tem esse modelo de relacionamento ao redor. Se você percebe que está se isolando, deixando de falar com seus amigos e familiares, perdendo suas características próprias, isso é sinal de um relacionamento abusivo SIM. Você precisa listar, o que faz bem e o que faz mal no relacionamento. Vai ser um trabalho de médio prazo e você precisa aceitar que algo está errado, saber que o problema na maioria dos casos não é, e não está em você!"
         }
     ]
 }
